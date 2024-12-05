@@ -14,5 +14,13 @@ int main() {
 		carre[i].Afficher();
 	}
 
+	CCarre* carre2;
+	carre2 = new CCarre(15,26);
+	cout << "\n";
+
+	carre2->Setcote(5);
+	carre2->Afficher();
+	
+	delete carre2;
 	return 0;
 }
