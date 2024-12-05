@@ -21,3 +21,15 @@ void CCarre::Setcote(int cote1) {
 void CCarre::Afficher() {
 	cout << "x : " << sx << ", y : " << sy << ", cote : " << cote;
 }
+
+int CCarre::Getsx() {
+	return sx;
+}
+
+int CCarre::Getsy() {
+	return sy;
+}
+
+int CCarre::GetCote() {
+	return cote;
+}

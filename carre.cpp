@@ -9,7 +9,8 @@ int main() {
 	carre.Setsx(5);
 	carre.Setsy(7);
 	carre.Setcote(2);
-	carre.Afficher();
+	
+	cout << "x : " << carre.Getsx() << ", y : " << carre.Getsy() << ", cote : " << carre.GetCote();
 
 	return 0;
 }
