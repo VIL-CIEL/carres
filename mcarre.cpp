@@ -14,7 +14,6 @@ CCarre::CCarre(int dx, int dy){
 	cote = 0;
 }
 
-
 void CCarre::Setsx(int sx1) {
 	sx = sx1;
 }
