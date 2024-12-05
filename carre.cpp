@@ -19,6 +19,7 @@ int main() {
 	cout << "\n";
 
 	carre2->Setcote(5);
+	carre2->Deplacer(5, 10);
 	carre2->Afficher();
 	
 	delete carre2;

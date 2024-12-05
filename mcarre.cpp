@@ -42,6 +42,14 @@ int CCarre::GetCote() {
 	return cote;
 }
 
+
+void CCarre::Deplacer(int dx, int dy)
+{
+	sx += dx;
+	sy += dy;
+
+}
+
 void CCarre::Deplacer(char direction, int saut) {
 
 	if (direction == 'n')
