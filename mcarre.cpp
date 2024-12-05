@@ -2,6 +2,11 @@
 #include "carre.h"
 using namespace std;
 
+CCarre::CCarre() {
+	sx = 0;
+	sy = 0;
+	cote = 0;
+}
 
 CCarre::CCarre(int dx, int dy){
 	sx = dx;
@@ -23,7 +28,7 @@ void CCarre::Setcote(int cote1) {
 }
 
 void CCarre::Afficher() {
-	cout << "x : " << sx << ", y : " << sy << ", cote : " << cote;
+	cout << "\nx : " << sx << ", y : " << sy << ", cote : " << cote;
 }
 
 int CCarre::Getsx() {

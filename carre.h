@@ -5,6 +5,7 @@ using namespace std;
 class CCarre
 {
 public:
+	CCarre();
 	CCarre(int dx, int dy);
 	void Setsx(int sx1);
 	void Setsy(int sy1);

@@ -4,23 +4,15 @@ using namespace std;
 
 int main() {
 
-	CCarre carre(40,50);
+	CCarre carre[4];
 
-	carre.Setcote(20);
-	carre.Afficher();
+	for (int i = 0; i < 4; i++) {
+		carre[i].Setsx(2*i);
+		carre[i].Setsy(2*i);
+		carre[i].Setcote(5*i);
 
-	carre.Deplacer('n', 9);
-	cout << "\nDeplacement de 9 au nord >> ";
-	carre.Afficher();
-	carre.Deplacer('s', 5);
-	cout << "\nDeplacement de 5 au sud >> ";
-	carre.Afficher();
-	carre.Deplacer('e', 3);
-	cout << "\nDeplacement de 3 a l'est >> ";
-	carre.Afficher();
-	carre.Deplacer('o', 15);
-	cout << "\nDeplacement de 15 a l'ouest >> ";
-	carre.Afficher();
+		carre[i].Afficher();
+	}
 
 	return 0;
 }
