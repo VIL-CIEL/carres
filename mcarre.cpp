@@ -2,7 +2,11 @@
 #include "carre.h"
 using namespace std;
 
-CCarre::CCarre(){
+
+CCarre::CCarre(int dx, int dy){
+	sx = dx;
+	sy = dy;
+	cote = 0;
 }
 
 

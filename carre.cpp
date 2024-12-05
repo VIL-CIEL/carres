@@ -4,10 +4,8 @@ using namespace std;
 
 int main() {
 
-	CCarre carre;
+	CCarre carre(40,50);
 
-	carre.Setsx(40);
-	carre.Setsy(50);
 	carre.Setcote(20);
 	carre.Afficher();
 
